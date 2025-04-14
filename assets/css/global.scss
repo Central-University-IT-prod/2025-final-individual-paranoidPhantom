@@ -1,0 +1,14 @@
+:root {
+    interpolate-size: allow-keywords;
+
+    font-family: "Raleway";
+    .page-enter-from,
+    .page-leave-to {
+        scale: 0.95;
+        opacity: 0;
+    }
+    .page-enter-active,
+    .page-leave-active {
+        transition: all 0.4s ease-out;
+    }
+}
